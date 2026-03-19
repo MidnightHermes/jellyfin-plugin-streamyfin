@@ -70,6 +70,7 @@ public class PluginConfiguration : BasePluginConfiguration
     defaultVideoOrientation = new() { value = OrientationLock.Default },
     safeAreaInControlsEnabled = new() { value = true },
     showCustomMenuLinks = new() { value = false },
+    showLargeHomeCarousel = new() { value = false },
     hiddenLibraries = new() { value = new[] { "Enter library id(s)" } },
     disableHapticFeedback = new() { value = false },
     defaultBitrate = new() { value = null },
