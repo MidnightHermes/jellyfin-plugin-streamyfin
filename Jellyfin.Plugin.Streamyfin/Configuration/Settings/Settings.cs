@@ -210,6 +210,10 @@ public class Settings
     [NotNull]
     [Display(Name = "Show custom menu links", Description = "Show custom menu links in Jellyfin's web configuration")]
     public Lockable<bool>? showCustomMenuLinks { get; set; } // = false;
+
+    [NotNull]
+    [Display(Name = "Show large home carousel (beta)", Description = "Enable the large carousel layout on the home screen")]
+    public Lockable<bool>? showLargeHomeCarousel { get; set; }
     
     [NotNull]
     [Display(Name = "Hidden libraries", Description = "Enter all library Ids you want hidden from users")]
